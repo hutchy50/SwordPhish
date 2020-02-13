@@ -44,6 +44,6 @@
   
   <Fragment>
     <Binary Id="CustomActionBinary" SourceFile="$(var.Schillings.SwordPhish.Installer.OptionsCustomAction.TargetDir)$(var.Schillings.SwordPhish.Installer.OptionsCustomAction.TargetName).CA.dll"/>
-    <CustomAction Id="OptionsCustomAction" BinaryKey="CustomActionBinary" DllEntry="SaveOptions" Impersonate="no" Execute="deferred" />
+    <CustomAction Id="OptionsCustomAction" BinaryKey="CustomActionBinary" DllEntry="SaveOptions" Impersonate="no" />
   </Fragment>
 </Wix>
